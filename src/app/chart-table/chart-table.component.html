@@ -1,0 +1,8 @@
+<table class="table table-responsive table-condensed">
+  <tr>
+    <th *ngFor="let label of chart.labels">{{label}}</th>
+  </tr>
+  <tr *ngFor="let d of chart.data">
+    <td *ngFor="let label of chart.labels; let j=index">{{d && d.data[j]}}</td>
+  </tr>
+</table>
