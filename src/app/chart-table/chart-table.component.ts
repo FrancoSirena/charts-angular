@@ -4,7 +4,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'pirp-chart-table',
   templateUrl: './chart-table.component.html',
-  styleUrls: ['./chart-table.component.css']
+  styleUrls: ['./chart-table.component.scss']
 })
 export class ChartTableComponent implements OnInit {
   @Input('chart') chart: Chart;

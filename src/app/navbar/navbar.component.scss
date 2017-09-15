@@ -1,0 +1,17 @@
+$azul: #1f3264;
+$textColor: #fff;
+
+.container-fluid {
+    background-color: $azul;
+}
+.navbar  a {
+    color: $textColor;
+}
+.navbar{
+    a{
+        &:hover, &:visited {
+            color: $textColor;
+        }
+    }
+    
+}

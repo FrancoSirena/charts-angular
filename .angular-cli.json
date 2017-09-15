@@ -22,7 +22,7 @@
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.css",
         "../node_modules/lato-font/css/lato-font.css",
-        "styles.css"
+        "styles.scss"
       ],
       "scripts": [
         "../node_modules/html5-history-api/history.js",
@@ -62,7 +62,8 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
-    "component": {}
+    "styleExt": "scss",
+    "component": {
+    }
   }
 }

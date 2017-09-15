@@ -5,7 +5,7 @@ import { ChartTypeEnum } from './../chart-type-enum.enum';
 @Component({
   selector: 'pirp-chart-canvas',
   templateUrl: './chart-canvas.component.html',
-  styleUrls: ['./chart-canvas.component.css']
+  styleUrls: ['./chart-canvas.component.scss']
 })
 export class ChartCanvasComponent implements OnInit {
   // tslint:disable-next-line:no-input-rename
